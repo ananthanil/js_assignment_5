@@ -184,19 +184,30 @@ let spliced = spliceArr.splice(1,2)
 
 console.log('spliced Array',spliced);
 
-console.log();
-
 console.log("");
 
 console.log("Question 21 toString");
+
+let arryToString = ['Benz','BMW','suzuki','tata']
+
+console.log("Tostring",arryToString.toString());
 
 console.log("");
 
 console.log("Question 22 Filter");
 
+let arrFilter = [22,33,77,99,11,88,'sachin']
+
+arrFilter.filter((element)=>console.log(element));
 console.log("");
 
 console.log("Question 23 Reduce");
+
+let arrReduce = [11,22,33,44,55,66]
+
+let test = arrReduce.reduce((element)=>element)
+
+console.log("reduce",test);
 
 console.log("");
 
